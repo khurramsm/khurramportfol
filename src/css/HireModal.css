@@ -1,0 +1,42 @@
+.hireMe .modal {
+  margin-top: 3rem;
+}
+.hireMe .modal .modal-body {
+  background-color: rgb(243, 243, 243);
+  border-radius: 0px;
+}
+.modal .navbar-brand {
+  color: #000;
+}
+.modal .navbar-brand span {
+  color: var(--themeBlue--);
+}
+.modal .navbar-brand span,
+.modal .navbar-brand {
+  font-family: "Dancing Script", cursive;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.hireMe .modal .modal-body form {
+  display: flex;
+  flex-direction: column;
+  margin: auto 2rem;
+}
+.hireMe .modal .modal-body form input,
+.hireMe .modal .modal-body form textarea {
+  background-color: transparent;
+  margin-bottom: 1rem;
+  border: none !important;
+  outline: none !important;
+  padding: 0.4rem;
+  padding-left: 0;
+  border-bottom: 1px solid var(--themeBlue--) !important;
+}
+@media (max-width: 767px) {
+  .hireMe .modal {
+    margin-top: 5rem;
+  }
+  .hireMe .modal .modal-body form {
+    margin: auto 1rem;
+  }
+}

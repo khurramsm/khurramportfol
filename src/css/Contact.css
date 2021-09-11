@@ -1,0 +1,102 @@
+.contact {
+  background-color: rgb(241, 241, 241);
+  padding: 2rem;
+  padding-left: 4rem;
+  margin-top: 2rem;
+}
+.contact .introSection,
+.contact .navigationLinks,
+.contact .socialLinks,
+.contact .subscribe {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.contact .navbar-brand span,
+.contact .navbar-brand {
+  font-family: "Dancing Script", cursive;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: black;
+}
+.contact .navbar-brand span {
+  color: var(--themeBlue--);
+}
+.contact .introSection p {
+  text-align: justify;
+  margin-right: 1rem;
+  font-size: 0.9rem;
+}
+.contact .navbar-brand.heading,
+.contact .navbar-brand.heading span {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+.contact .navigationLinks .nav-item {
+  color: #000;
+  font-size: 0.9rem;
+}
+.contact .navigationLinks .nav-item.active-link {
+  color: var(--themeBlue--);
+}
+.contact .contact-details .contact-link {
+  display: flex;
+  align-items: center;
+  color: #000;
+  outline: none !important;
+  text-decoration: none !important;
+}
+.contact .contact-details .contact-link:hover {
+  color: var(--themeBlue--);
+}
+.contact .contact-details .contact-link i {
+  font-size: 1.2rem;
+}
+.contact .socialLinks .line-1 {
+  width: 40%;
+  margin: 0;
+  margin-top: 1rem;
+  border: 0.5px dotted var(--themeBlue--);
+}
+.contact .socialLinks .line-2 {
+  width: 60%;
+  margin: 0;
+  margin-bottom: 1rem;
+  margin-top: 0.2rem;
+  border: 0.5px dotted var(--themeBlue--);
+}
+.contact .subscribe .subs-details input {
+  padding: 0.3rem;
+  padding-left: 0;
+  padding-top: 0;
+  width: 60%;
+  border: none;
+  border-bottom: 1px solid var(--themeBlue--);
+  outline: none !important;
+  font-size: 0.9rem;
+  background-color: transparent;
+}
+.copyrightSection {
+  border-top: 1px solid var(--themeBlue--);
+}
+@media (max-width: 767px) {
+  .contact {
+    padding: 2rem;
+  }
+  .contact .subscribe .subs-details input {
+    width: 80%;
+  }
+  .contact .socialLinks .line-1 {
+    width: 60%;
+  }
+  .contact .socialLinks .line-2 {
+    width: 80%;
+  }
+  .contact .introSection,
+  .contact .navigationLinks,
+  .contact .socialLinks,
+  .contact .subscribe {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}

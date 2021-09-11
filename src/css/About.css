@@ -1,0 +1,64 @@
+.about {
+  padding-top: 7rem;
+  padding-right: 2rem;
+}
+.about .about-image {
+  margin-top: 2rem;
+  width: 80%;
+  border-radius: 10px;
+  background-image: url("https://meshdesignstudio.com/wp-content/uploads/2018/02/mesh-background-portfolio-lglines.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0.1px 1px 5px var(--themeBlue--);
+}
+.about .about-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+.about h5 {
+  background: var(--shadeBlueRight--);
+  color: #fff;
+  font-size: 0.8rem;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  width: 20%;
+  text-align: center;
+  margin-top: 2.6rem;
+}
+.about h1 {
+  width: 70%;
+  font-weight: 520 !important;
+  font-size: 2rem;
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+.about .designation-div {
+  display: flex;
+  align-items: center;
+}
+.about .designation-div span {
+  background: var(--shadeBlueRight--);
+  width: 30px;
+  height: 2px;
+  margin-right: 1.2rem;
+}
+.about .designation-div small {
+  font-weight: 600;
+}
+
+@media (max-width: 767px) {
+  .about {
+    padding: 2rem 1.8rem;
+    padding-top: 5rem;
+  }
+  .about h5 {
+    width: 30%;
+  }
+  .about h1 {
+    width: 100%;
+  }
+  .about .about-image {
+    display: none;
+  }
+}

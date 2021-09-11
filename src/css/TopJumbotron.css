@@ -1,0 +1,50 @@
+.jumbotron {
+  background-image: url("https://meshdesignstudio.com/wp-content/uploads/2018/02/mesh-background-portfolio-lglines.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 5rem;
+  padding-bottom: 0 !important;
+}
+.jumbotron .left-div {
+  padding-top: 7rem;
+}
+.jumbotron h1,
+.jumbotron h4 {
+  font-weight: 500 !important;
+}
+.jumbotron h4 {
+  margin: 0.7rem auto;
+}
+.jumbotron h1 span,
+.jumbotron h4 span {
+  color: var(--themeBlue--);
+}
+.social-links .social-link i {
+  font-size: 1.3rem;
+  padding: 0.3rem;
+  color: #000;
+  border-radius: 2px;
+}
+
+.social-links .social-link i:hover {
+  color: #fff;
+  box-shadow: 1px 1px 3px var(--themeBlue--);
+  background: var(--shadeBlueRight--);
+}
+
+@media (max-width: 767px) {
+  .jumbotron {
+    padding: 2rem 1.2rem;
+  }
+  .jumbotron-profile-image {
+    width: 110%;
+    margin-top: 2rem;
+  }
+  .jumbotron h1 {
+    font-size: 2.5rem;
+  }
+  .jumbotron h4 {
+    font-size: 1rem;
+  }
+}
