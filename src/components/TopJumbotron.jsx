@@ -6,7 +6,7 @@ const TopJumbotron = () => {
   return (
     <>
       <div id="home" className="jumbotron jumbotron-fluid">
-        <div className="row container" data-aos="zoom-in">
+        <div className="row container">
           <div className="col-md-6 left-div">
             <h1 className="display-4">
               HI! I'M <span>KHURRAM</span>
@@ -66,7 +66,7 @@ const TopJumbotron = () => {
               </a>
             </div>
           </div>
-          <div className="col-md-6 text-center">
+          <div className="col-md-6 text-center" data-aos="zoom-in">
             <img
               className="jumbotron-profile-image"
               src={Profile}
