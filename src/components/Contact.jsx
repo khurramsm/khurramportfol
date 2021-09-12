@@ -1,28 +1,7 @@
 import "../css/Contact.css";
 import { useState } from "react";
-import Swal from "sweetalert2";
-
 const Contact = () => {
   const [email, setEmail] = useState("");
-  const Toast = Swal.mixin({
-    toast: true,
-    position: "top-end",
-    showConfirmButton: false,
-    timer: 3000,
-    timerProgressBar: true,
-    didOpen: (toast) => {
-      toast.addEventListener("mouseenter", Swal.stopTimer);
-      toast.addEventListener("mouseleave", Swal.resumeTimer);
-    },
-  });
-  const onSubmitSubs = (e) => {
-    e.preventDefault();
-    Toast.fire({
-      icon: "success",
-      title: `${email} Subscribed successfully`,
-    });
-    setEmail("");
-  };
 
   return (
     <div id="contact" className="contact container-fluid">
@@ -132,17 +111,14 @@ const Contact = () => {
             Subs<span>cribe</span>
           </a>
           <div className="subs-details pt-1">
-            <form
-              name="subscribeForm"
-              method="post"
-              data-netlify="true"
-              onSubmit={onSubmitSubs}
-            >
+            <form name="subscribeForm" method="POST" action="/success">
               <input type="hidden" name="form-name" value="subscribeForm" />
               <input
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 type="email"
+                id="email"
+                name="email"
                 required
                 placeholder="Enter your email..."
               />

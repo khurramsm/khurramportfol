@@ -24,6 +24,24 @@
     <title>Sheikh Khurram | Portfolio</title>
   </head>
   <body>
+    <!-- Below code Must be hidden for netlify -->
+    <form class="d-none" name="hireForm" data-netlify="true">
+      <input type="hidden" name="name" />
+      <input type="hidden" name="email" />
+      <input type="hidden" name="phone" />
+      <textarea type="hidden" name="requirements"></textarea>
+    </form>
+    <form class="d-none" name="packageForm" data-netlify="true">
+      <input type="hidden" name="name" />
+      <input type="hidden" name="email" />
+      <input type="hidden" name="phone" />
+      <select type="hidden" name="package">
+        <option></option>
+      </select>
+    </form>
+    <form class="d-none" name="subscribeForm" data-netlify="true">
+      <input type="hidden" name="email" />
+    </form>
     <button
       onclick="topFunction()"
       id="myBtn"
@@ -32,6 +50,8 @@
     >
       <i class="fa fa-angle-double-up"></i>
     </button>
+    
+
     <div id="root"></div>
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
