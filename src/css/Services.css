@@ -50,10 +50,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  cursor: pointer;
+  cursor: pointer
 }
 .card.service-card:hover .box {
-  transform: translateY(-20px);
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
 }
 .card.service-card .box .content {
@@ -85,6 +84,10 @@
 }
 .card.service-card .box .content h4 sup {
   font-size: 0.75em;
+  font-weight: 300;
+}
+.card.service-card .box .content h4 sub{
+  font-size: 0.3em;
   font-weight: 300;
 }
 .card.service-card .box .content ul {

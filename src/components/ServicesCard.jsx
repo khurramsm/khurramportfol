@@ -13,7 +13,7 @@ const ServicesCard = ({
     <>
       <div
         className={`card service-card ${packageClass}`}
-        style={{ height: toggleDetails ? "900px" : "500px" }}
+        style={{ height: toggleDetails ? "800px" : "500px" }}
       >
         <div className="box" data-aos="zoom-in">
           <div className="content">
@@ -24,6 +24,7 @@ const ServicesCard = ({
             <h4>
               <sup>$</sup>
               {price}
+              <sub>/Month</sub>
             </h4>
             <ul>
               {serviceName.map((item, ind) => (

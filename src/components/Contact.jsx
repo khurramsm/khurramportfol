@@ -134,10 +134,11 @@ const Contact = () => {
           <div className="subs-details pt-1">
             <form
               name="subscribeForm"
-              method="POST"
+              method="post"
               data-netlify="true"
               onSubmit={onSubmitSubs}
             >
+              <input type="hidden" name="form-name" value="subscribeForm" />
               <input
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}

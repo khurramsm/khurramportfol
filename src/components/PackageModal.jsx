@@ -62,10 +62,11 @@ const PackageModal = ({ id }) => {
             <div className="modal-body">
               <form
                 name="packageForm"
-                method="POST"
+                method="post"
                 data-netlify="true"
                 onSubmit={onSubmitModal}
               >
+                <input type="hidden" name="form-name" value="packageForm" />
                 <p className="navbar-brand my-3 text-center">
                   Sheikh <span>Khurram</span>
                 </p>

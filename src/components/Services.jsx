@@ -19,13 +19,11 @@ const Services = () => {
             serviceName={[
               "Personalized Social Media Deck",
               "Competitor Analysis",
-              "Complete Social Media Strategy",
+              "Dedicated Account Manager",
             ]}
             detailServices={[
-              "Social Media Profile Optimization ",
-              "Dedicated Account Manager ",
-              "16 Custom Posts/Month Total ",
-              "2 Ad Standard Video Post",
+              "16 Custom Posts",
+              "Post Copywriting + Hashtag Research",
               "2 Social Networks ",
               "Up To $500 Monthly Ad Budget ",
               "Comprehensive Monthly Report ",
@@ -36,45 +34,28 @@ const Services = () => {
             packageSlug="Standard"
             packageLevel="Standard"
             price="250"
-            serviceName={[
-              "Personalized Social Media Deck",
-              "Competitor Analysis",
-              "Complete Social Media Strategy",
-            ]}
+            serviceName={["All Basic Benefits, Plus"]}
             detailServices={[
-              "Social Media Profile Optimization ",
-              "Dedicated Account Manager ",
-              "24 Custom Posts/Month Total ",
-              "4 Ad Standard Video Post",
+              "24 Custom Posts",
+              "2 Ad Standard Video Post",
               "3 Social Networks ",
               "Up To $500 Monthly Ad Budget ",
-              "Comprehensive Monthly Report ",
-              "Chatbot Integration ",
-              "Retargeting ",
-              "A/B Split Testing ",
+              "Brand Optimized Website up to 4 Pages",
             ]}
             packageClass="standard"
           />
           <ServicesCard
             packageSlug="Premium"
             packageLevel="Premium"
-            price="300"
-            serviceName={[
-              "Personalized Social Media Deck",
-              "Competitor Analysis",
-              "Complete Social Media Strategy",
-            ]}
+            price="350"
+            serviceName={["All Standard Benefits, Plus"]}
             detailServices={[
-              "Social Media Profile Optimization ",
-              "Dedicated Account Manager ",
-              "32 Custom Posts/Month Total ",
+              "32 Custom Posts",
               "4 Ad Standard Video Post",
               "4 Social Networks ",
               "Up To $1,000 Monthly Ad Budget ",
-              "Comprehensive Monthly Report ",
-              "Influencer Marketing ",
-              "Retargeting ",
-              "A/B Split Testing ",
+              "Brand Logo 2 Concept",
+              "Brand Optimized Website up to 8 Pages",
             ]}
             packageClass="premium"
           />
