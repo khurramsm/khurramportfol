@@ -7,7 +7,7 @@ const ExperienceBox = ({ duration, place, design, workDetail }) => {
       </div>
       <div className="text" data-aos="zoom-in">
         <h4>{design}</h4>
-        <p>{workDetail}</p>
+        <p className="text-justify">{workDetail}</p>
       </div>
     </div>
   );

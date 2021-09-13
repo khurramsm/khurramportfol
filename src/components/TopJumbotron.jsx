@@ -14,7 +14,7 @@ const TopJumbotron = () => {
             <h4 className="lead">
               I'M A <span>SOCIAL MEDIA</span> PROBLEM SOLVER
             </h4>
-            <p className="">
+            <p className="text-justify">
               I’m Khurram Social Media solutions provider. With over 2 years of
               Experience, I’ve learned several techniques and strategies to out
               rank your competitor’s and grow your Social Media presence.

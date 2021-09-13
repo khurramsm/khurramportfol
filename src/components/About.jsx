@@ -18,21 +18,21 @@ const About = () => {
               <span></span>
               <small>Social Media Solution Provider / Problem Solver</small>
             </div>
-            <p className="about-details mt-3">
+            <p className="about-details mt-3 text-justify">
               I’m a BBA Student and a Social Media Marketing Manager and have
               done various projects and learned tricks and techniques and after
               implementing I came across helping people by letting them you
               about the strategies that I’ve learned in my entire Social Media
               Marketing Management journey.
             </p>
-            <p className="about-details">
+            <p className="about-details text-justify">
               If you are a Blogger, YouTuber. Or a website owner for sure you
               know how hard it is to be on the top in this up-ranking Social
               Media genre and how many problems are blocking our way to get on
               the top and that’s why I’m here to provide you with the solutions
               and techniques to get through those barriers.
             </p>
-            <p className="about-details">
+            <p className="about-details text-justify">
               You are just a step away to get a consultation from me. I’m just a
               text away. Here, I’m going to let you know all the aspects of
               Social Media growth and will let you know the hacks that I’ve
