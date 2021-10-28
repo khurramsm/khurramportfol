@@ -2,6 +2,7 @@ import "../css/Testimonals.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import TestimonalCard from "./TestimonalCard";
+import videoTesti from "../images/videoTestimonals.mp4";
 
 const Testimonals = () => {
   return (
@@ -10,6 +11,11 @@ const Testimonals = () => {
         <div className="services-header col-md-12">
           <h1 className="display-5">TESTIMONALS</h1>
           <div className="hori-line"></div>
+        </div>
+        <div className="col-md-12 text-center">
+          <video className="testimonalVideo" width="50%" autoplay controls>
+            <source src={videoTesti} type="video/mp4" />
+          </video>
         </div>
         <Carousel
           showArrows={true}

@@ -107,6 +107,9 @@
     width: 93% !important;
     margin: auto !important;
   }
+  .testimonalVideo {
+    width: 100%;
+  }
 
   .carousel.carousel-slider .control-arrow {
     display: none !important;
