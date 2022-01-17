@@ -132,7 +132,7 @@ const Contact = () => {
         </div>
         <div className="col-md-12 text-left pt-1 copyrightSection">
           <small>
-            Copyright &copy; 2021, Sheikh Khurram,
+            Copyright &copy; 2022, Sheikh Khurram,
             <br /> Made with 💝 By{" "}
             <a
               className="text-info"
