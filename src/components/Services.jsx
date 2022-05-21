@@ -15,7 +15,7 @@ const Services = () => {
           <ServicesCard
             packageSlug="Basic"
             packageLevel="Basic"
-            price="150"
+            price="250"
             serviceName={[
               "Personalized Social Media Deck",
               "Competitor Analysis",
@@ -33,7 +33,7 @@ const Services = () => {
           <ServicesCard
             packageSlug="Standard"
             packageLevel="Standard"
-            price="250"
+            price="750"
             serviceName={["All Basic Benefits, Plus"]}
             detailServices={[
               "24 Custom Posts",
@@ -47,7 +47,7 @@ const Services = () => {
           <ServicesCard
             packageSlug="Premium"
             packageLevel="Premium"
-            price="350"
+            price="1500"
             serviceName={["All Standard Benefits, Plus"]}
             detailServices={[
               "32 Custom Posts",
